@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
+The "Movies App" allows users to do the following:
+
+1. View popular, now playing, upcoming and top rated movies.
+2. View Individual movies and get the movie data such as cast, movie duration, summary, recommended movies,etc.
+3. View popular People.
+4. View Individual Persons and get thier details.
+5. Search for Movies and People.
+6. 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
