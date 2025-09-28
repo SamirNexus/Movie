@@ -1,35 +1,72 @@
-# MyApp
+# 🎬 Movie – Movie & People Info App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+**Movie** is a web application built with **Angular**, **HTML5**, **CSS3**, **Bootstrap**, **TypeScript**, and **jQuery**.  
+It allows users to browse, search, and view detailed information about movies and people — such as cast, duration, and recommendations.
 
-The "Movies App" allows users to do the following:
+---
 
-1. View popular, now playing, upcoming and top rated movies.
-2. View Individual movies and get the movie data such as cast, movie duration, summary, recommended movies,etc.
-3. View popular People.
-4. View Individual Persons and get thier details.
-5. Search for Movies and People.
-6. 
-## Development server
+## 🌟 Key Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- ✅ Browse Movies: Popular, Now Playing, Upcoming, Top Rated  
+- ✅ View Movie Details: Cast, duration, summary, recommendations  
+- ✅ People Profiles: Browse actors, directors, and crew  
+- ✅ Search: Quickly find movies or people  
+- ✅ Responsive Design: Works smoothly on desktop & mobile  
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Technologies Used
 
-## Build
+- **Angular** – front-end framework  
+- **TypeScript** – superset of JavaScript  
+- **HTML5** – structure and markup  
+- **CSS3** – styling and layout  
+- **Bootstrap** – responsive UI components  
+- **jQuery** – DOM manipulation & AJAX  
+- **External APIs** – to fetch movie/person data  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📂 Project Structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Movie/
+┣ src/ # Source code files
+┣ .editorconfig # Editor configuration
+┣ .gitignore # Patterns for ignoring files
+┣ angular.json # Angular project configuration
+┣ package.json # Project metadata & dependencies
+┣ package-lock.json # Version-locked dependencies
+┣ tsconfig.app.json # TS config for the app
+┣ tsconfig.json # Base TS configuration
+┣ tsconfig.spec.json # TS config for tests
+┗ README.md # This file
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 📥 How to Run / Development Server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/SamirNexus/Movie.git
+Install dependencies:
+
+
+cd Movie
+npm install
+Run the development server:
+
+ng serve
+Open your browser to: http://localhost:4200/
+
+App will reload automatically when source files change
+
+🧪 Running Unit Tests
+
+ng test
+Runs unit tests using the Angular CLI.
+
+🚀 Author
+SamirNexus – Software Engineer & Web Developer
+GitHub: https://github.com/SamirNexus
